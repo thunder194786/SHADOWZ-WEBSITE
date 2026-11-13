@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default SHADOWZ HUB theme - overridden at runtime by Appearance Settings */
+  --color-surface-rgb: 5 2 10;      /* #05020a - primary background */
+  --color-surface2-rgb: 18 10 33;   /* #120a21 - secondary background */
+  --color-neon-rgb: 176 38 255;     /* #b026ff - accent */
+  --color-violet-rgb: 124 58 237;   /* #7c3aed - secondary accent */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(var(--color-surface-rgb));
+}
